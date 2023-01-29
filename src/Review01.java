@@ -9,9 +9,6 @@ public class Review01 {
 
         int tamount = tax(500, 10);
 
-        //int pamount = product + tamount;
-
-
         System.out.println(product + "円の商品の税込価格は" +(product+tamount) +"円（消費税は" +tamount + "円)です。");
 
     }
